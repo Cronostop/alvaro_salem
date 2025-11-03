@@ -487,23 +487,21 @@
                 
                 
                 <h1 id="mt03">MT03<a class="headerlink" href="#mt03" title="Permanent link">&para;</a></h1>
-<p>Creacion de un cofre de 16x8x4cm de base MDF de 3mm de espesor
-Tecnología utilizada para corte laser. 
-Programa utilizado para modelar Autodesk Fusion.</p>
+<p>En este módulo técnico exploramos el corte laser y para el ejercicio final se creó un cofre de 16x8x4cm. El material utilizado MDF de 3mm de espesor. Programas utilizados para modelar Fusion, Autocad e Inkscape. A continuación, el proceso.</p>
 <p>Pasos:</p>
 <ol>
-<li>Crear parámetros. Se parametriza ancho, alto y largo de la caja. Además de parametrizar las dimensiones del kerfing usado para la tapa de la caja.</li>
+<li>En Fusion crear parámetros. Se parametrizó ancho, alto y largo del cofre. Además de parametrizar las dimensiones del kerfing usado para la tapa.</li>
 </ol>
 <p><img alt="" src="../../images/MT03/1%20PARAMETROS.jpg" /></p>
 <ol>
-<li>Crear componentes. Primer componente crado es la base de la caja. </li>
+<li>Creacion de componentes. Primer componente creado es la base de la caja. </li>
 </ol>
 <p><img alt="" src="../../images/MT03/2.%20COMPONENTE.jpg" /></p>
 <ol>
 <li>Hacer un sketch y graficar un rectángulo usando x dimensiones los parámetros predeterminados. Graficar las muescas haciendo rectángulos y conectándolos con líneas, hacerlas de construcción y equidistantes.</li>
 </ol>
 <p><img alt="" src="../../images/MT03/3A.jpg" /></p>
-<p>Con dimensión aplicamos el parámetro PLY (ancho de contrachapado) </p>
+<p>Con dimensión aplicamos el parámetro PLY (ancho de MDF) </p>
 <p><img alt="" src="../../images/MT03/3B.jpg" /></p>
 <p>Dar cota a una de las muescas. Usar número redondo.</p>
 <p><img alt="" src="../../images/MT03/3C.jpg" /></p>
@@ -522,7 +520,7 @@ Programa utilizado para modelar Autodesk Fusion.</p>
 <p>Usar mismo método para construir el Lado chico B.</p>
 <p><img alt="" src="../../images/MT03/4C.jpg" /></p>
 <ol>
-<li>Construir la tapa que incluye las bisagras usando Sheet Metal. Primero crear una regla para el Contrachapado (PLY):</li>
+<li>Construir la tapa que incluye las bisagras usando la herramienta Sheet Metal. Primero crear una regla para el MDF (PLY):</li>
 </ol>
 <p><img alt="" src="../../images/MT03/5A.jpg" /></p>
 <p>Crear nuevo componente para tapa escogiendo PLY:</p>
@@ -537,22 +535,37 @@ Programa utilizado para modelar Autodesk Fusion.</p>
 <p><img alt="" src="../../images/MT03/5F.jpg" /></p>
 <p>Crear un sketch y proyectar los puntos que limitan las bisagras: </p>
 <p><img alt="" src="../../images/MT03/5G.jpg" /></p>
-<p>Empezamos a grafigar las ranuras de las bisagras. </p>
+<p>Empezamos a graficar las ranuras de las bisagras. </p>
 <p><img alt="" src="../../images/MT03/5H.jpg" /></p>
 <p>Terminamos el sketch, se crea uno nuevo en el mismo plano, proyectamos las ranuras y creamos un patrón rectangular.</p>
 <p><img alt="" src="../../images/MT03/5I.jpg" /></p>
-<p>Apagamos ese sketch, creamos uno nuevo en el mismo plano. Y doblamos de vuelta a forma original el componente anterior.</p>
+<p>Apagamos ese sketch, creamos uno nuevo en el mismo plano. Y desdoblamos de vuelta a forma original el componente anteriorde la tapa.</p>
 <p><img alt="" src="../../images/MT03/5J.jpg" /></p>
 <ol>
 <li>Listos para pasar al espacio de Manofactura Y poder generar los planos de fabricación 2d para corte laser. 
 Ir a Setup/manufacturing model/edit. Creamos sketch en el plano base y dibujamos un rectángulo de las dimensiones 600x450mm.
 Para hacer el Nesting vamos a Modify/Arrange y seleccionamos todos los componentes que conforman las caras de la caja y como envelope al recuadro de 450x600m  y automáticamente crea el nesting</li>
 </ol>
-<p><img alt="" src="../../images/MT03/6.jpg" /></p>
+<p><img alt="" src="../../images/MT03/6A.jpg" /></p>
 <p>Creamos un Nuevo Setup en la pestaña de fabricación seleccionamos las piezas. Luego en Cutting/2d profile se generan los planos DXF que serán transmitidos a la cortadora laser para proceder con el corte.</p>
-<p>En mi caso no pude terminar el proceso por que no tengo programada una cortadora laser y Fusion no me permite generar los planos 2d sin ese parámetro. Es un detalle que será resulto en el transcurso de la semana cuando vayamos hacer los cortes en laboratorio.</p>
-<p>Abajo imagen de cómo se ensamblarían todas la partes de la caja.</p>
-<p><img alt="" src="../../images/MT03/7.jpg" /></p>
+<p>En mi caso no pude terminar el proceso por que no tengo programada una cortadora laser y Fusion no me permite generar los planos 2d sin ese parámetro. Es un detalle que será resuelto en el transcurso de la semana cuando vayamos hacer los cortes en laboratorio.</p>
+<p>Abajo imagen de cómo se ensamblan todos los componentes de la caja.</p>
+<p><img alt="" src="../../images/MT03/6B.jpg" /></p>
+<ol>
+<li>Una alternativa para cumplir la entrega fue exportar el archivo Fusion en DXF y trabajarlo en Autocad. El archivo contiene las dimensiones correctas y fue fácil editarlo. Se asignaron las capas para el corte laser correspondientes:</li>
+</ol>
+<p><img alt="" src="../../images/MT03/7A.jpg" />
+<img alt="" src="../../images/MT03/7B.jpg" /></p>
+<ol>
+<li>Finalmente se pasó el archivo a Ikscape para poder introducir el logo con texto vectorial.</li>
+</ol>
+<p><img alt="" src="../../images/MT03/8.jpg" /></p>
+<ol>
+<li>Para la entrega final se creó un archivo DXF con la dimensión del soporte MDF de 600x450mm y los componentes de la caja colocados en Nesting a fin de optimizar material.</li>
+</ol>
+<p><img alt="" src="../../images/MT03/9.jpg" /></p>
+<p>Este es el tutorial de youtube utilizado para construir la caja y el kerfing en Fusion:</p>
+<p><a href="https://www.youtube.com/watch?v=HjXnGby1H_A">Watch the video</a></p>
                 
                   
                     
@@ -561,7 +574,7 @@ Para hacer el Nesting vamos a Modify/Arrange y seleccionamos todos los component
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 3, 2025 12:40:09 UTC">November 3, 2025</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 3, 2025 22:04:05 UTC">November 3, 2025</span>
     
   </small>
 </div>
