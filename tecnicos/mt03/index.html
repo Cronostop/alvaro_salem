@@ -67,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#mt03" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -267,6 +272,8 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
     
     <a href="./" title="MT03" class="md-nav__link md-nav__link--active">
       MT03
@@ -451,6 +458,21 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -464,9 +486,73 @@
                   
                 
                 
-                  <h1>MT03</h1>
-                
-                
+                <h1 id="mt03">MT03<a class="headerlink" href="#mt03" title="Permanent link">&para;</a></h1>
+<p>Creacion de un cofre de 16x8x4cm de base MDF de 3mm de espesor
+Tecnología utilizada para corte laser. 
+Programa utilizado para modelar Autodesk Fusion.</p>
+<p>Pasos:</p>
+<ol>
+<li>Crear parámetros. Se parametriza ancho, alto y largo de la caja. Además de parametrizar las dimensiones del kerfing usado para la tapa de la caja.</li>
+</ol>
+<p><img alt="" src="../../images/MT03/1%20PARAMETROS.jpg" /></p>
+<ol>
+<li>Crear componentes. Primer componente crado es la base de la caja. </li>
+</ol>
+<p><img alt="" src="../../images/MT03/2.%20COMPONENTE.jpg" /></p>
+<ol>
+<li>Hacer un sketch y graficar un rectángulo usando x dimensiones los parámetros predeterminados. Graficar las muescas haciendo rectángulos y conectándolos con líneas, hacerlas de construcción y equidistantes.</li>
+</ol>
+<p><img alt="" src="../../images/MT03/3A.jpg" /></p>
+<p>Con dimensión aplicamos el parámetro PLY (ancho de contrachapado) </p>
+<p><img alt="" src="../../images/MT03/3B.jpg" /></p>
+<p>Dar cota a una de las muescas. Usar número redondo.</p>
+<p><img alt="" src="../../images/MT03/3C.jpg" /></p>
+<p>Con espejo repetir lo mismo del otro lado. Usar el plano de origen como eje.</p>
+<p><img alt="" src="../../images/MT03/3D.jpg" /></p>
+<p>Repetir el proceso para hacer las muescas en el otro lado usando comando espejo.</p>
+<p><img alt="" src="../../images/MT03/3E.jpg" /></p>
+<p>Extruir usando el parámetro PLY como altura y listo.</p>
+<p><img alt="" src="../../images/MT03/3F.jpg" /></p>
+<ol>
+<li>Pasar a crear los otros dos Componentes de los lados chicos.  Usar offset plane en el borde chico para generar el plano donde poder graficar el sketch.</li>
+</ol>
+<p><img alt="" src="../../images/MT03/4A.jpg" /></p>
+<p>Terminado el sketch, extruir aplicando ancho parámetro PLY.</p>
+<p><img alt="" src="../../images/MT03/4B.jpg" /></p>
+<p>Usar mismo método para construir el Lado chico B.</p>
+<p><img alt="" src="../../images/MT03/4C.jpg" /></p>
+<ol>
+<li>Construir la tapa que incluye las bisagras usando Sheet Metal. Primero crear una regla para el Contrachapado (PLY):</li>
+</ol>
+<p><img alt="" src="../../images/MT03/5A.jpg" /></p>
+<p>Crear nuevo componente para tapa escogiendo PLY:</p>
+<p><img alt="" src="../../images/MT03/5B.jpg" /></p>
+<p>En un plano de trabajo intermedio proyectar lado chico como guía para construir la tapa.</p>
+<p><img alt="" src="../../images/MT03/5C.jpg" /></p>
+<p>Usar comando Flange para construir la tapa.</p>
+<p><img alt="" src="../../images/MT03/5D.jpg" /></p>
+<p>Para retirar las muescas en la tapa usar modify/combine/cut:</p>
+<p><img alt="" src="../../images/MT03/5E.jpg" /></p>
+<p>Estamos listos para desdoblar la tapa. Ir a Sheetmetal/modify/unfold:</p>
+<p><img alt="" src="../../images/MT03/5F.jpg" /></p>
+<p>Crear un sketch y proyectar los puntos que limitan las bisagras: </p>
+<p><img alt="" src="../../images/MT03/5G.jpg" /></p>
+<p>Empezamos a grafigar las ranuras de las bisagras. </p>
+<p><img alt="" src="../../images/MT03/5H.jpg" /></p>
+<p>Terminamos el sketch, se crea uno nuevo en el mismo plano, proyectamos las ranuras y creamos un patrón rectangular.</p>
+<p><img alt="" src="../../images/MT03/5I.jpg" /></p>
+<p>Apagamos ese sketch, creamos uno nuevo en el mismo plano. Y doblamos de vuelta a forma original el componente anterior.</p>
+<p><img alt="" src="../../images/MT03/5J.jpg" /></p>
+<ol>
+<li>Listos para pasar al espacio de Manofactura Y poder generar los planos de fabricación 2d para corte laser. 
+Ir a Setup/manufacturing model/edit. Creamos sketch en el plano base y dibujamos un rectángulo de las dimensiones 600x450mm.
+Para hacer el Nesting vamos a Modify/Arrange y seleccionamos todos los componentes que conforman las caras de la caja y como envelope al recuadro de 450x600m  y automáticamente crea el nesting</li>
+</ol>
+<p><img alt="" src="../../images/MT03/6.jpg" /></p>
+<p>Creamos un Nuevo Setup en la pestaña de fabricación seleccionamos las piezas. Luego en Cutting/2d profile se generan los planos DXF que serán transmitidos a la cortadora laser para proceder con el corte.</p>
+<p>En mi caso no pude terminar el proceso por que no tengo programada una cortadora laser y Fusion no me permite generar los planos 2d sin ese parámetro. Es un detalle que será resulto en el transcurso de la semana cuando vayamos hacer los cortes en laboratorio.</p>
+<p>Abajo imagen de cómo se ensamblarían todas la partes de la caja.</p>
+<p><img alt="" src="../../images/MT03/7.jpg" /></p>
                 
                   
                     
@@ -475,7 +561,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="October 14, 2025 22:59:55 UTC">October 14, 2025</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 3, 2025 12:40:09 UTC">November 3, 2025</span>
     
   </small>
 </div>
