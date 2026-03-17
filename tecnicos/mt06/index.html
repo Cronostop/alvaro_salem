@@ -67,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#mt06-networking" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -303,10 +308,41 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        MT06
+        <span class="md-nav__icon md-icon"></span>
+      </label>
     
     <a href="./" title="MT06" class="md-nav__link md-nav__link--active">
       MT06
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#trabajo-en-laboratorio" class="md-nav__link">
+    TRABAJO EN LABORATORIO
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -559,6 +595,36 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#trabajo-en-laboratorio" class="md-nav__link">
+    TRABAJO EN LABORATORIO
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -572,9 +638,24 @@
                   
                 
                 
-                  <h1>MT06</h1>
-                
-                
+                <h1 id="mt06-networking">MT06 NETWORKING<a class="headerlink" href="#mt06-networking" title="Permanent link">&para;</a></h1>
+<p>Es la introducción a la Electrónica Networking, en este módulos vimos la aplicación práctica de tecnologías y software relacionado. Networking es la capacidad de los dispositivos electrónicos de comunicarse e intercambiar datos.
+Las Redes (networks) son un conjunto de ordenadores conectados entre sí. Las conexiones pueden ser alámbricas o inalámbricas, sincrónica o asincrónica; y en serie o en paralelo. 
+Las redes inalámbricas que se usaron para en el curso son WIFI y Bluetooth. 
+Los protocolos son acuerdos que establecen cómo deben organizarse los mensajes y qué pasos seguir para que las computadoras y los programas puedan comunicarse y compartir información entre sí: </p>
+<ul>
+<li>Protocolos por cable: Serial, I2C y SPI</li>
+<li>Protocolos Wireless: Red ESP32 en modo estación o modo punto de acceso. También MQTT.</li>
+</ul>
+<h4 id="trabajo-en-laboratorio">TRABAJO EN LABORATORIO<a class="headerlink" href="#trabajo-en-laboratorio" title="Permanent link">&para;</a></h4>
+<p>En este trabajo práctico exploramos los flujos de trabajo en el diseño de redes, la implementación de protocolos de comunicación y la programación de placas con conectividad Wi-Fi o Bluetooth. También abordamos la selección del hardware adecuado para nuestros proyectos y la elección de librerías que faciliten la interacción entre dispositivos.</p>
+<p>Previo a iniciar con los ejercicios Instalamos la placa Esp32 en Arduino IDE. En Arduino IDE, fuimos a File → Preferences y agregamos el link del ESP32 en el campo:
+<strong>Additional Boards Manager URLs</strong> y pegamos estos links: 
+    - <a href="https://dl.espressif.com/dl/package_esp32_index.json">https://dl.espressif.com/dl/package_esp32_index.json</a>
+    - <a href="https://resource.heltec.cn/download/package_heltec_esp32_index.json">https://resource.heltec.cn/download/package_heltec_esp32_index.json</a></p>
+<p><img alt="" src="../../images/MT06/01.%20INSTAL%20esp32.jpg" /></p>
+<p>Luego fuimos a Tools→ Board → Boards Manager y Selecionamos las bibliotecas para instalarlas.</p>
+<p>EJERCICIO 1</p>
                 
                   
                     
@@ -583,7 +664,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 16, 2026 16:51:52 UTC">March 16, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 17, 2026 02:15:54 UTC">March 17, 2026</span>
     
   </small>
 </div>
