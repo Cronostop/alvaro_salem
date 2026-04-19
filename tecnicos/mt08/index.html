@@ -377,6 +377,33 @@
     PREPARACION DE TRAYECTORIA
   </a>
   
+    <nav class="md-nav" aria-label="PREPARACION DE TRAYECTORIA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-cajeado-pocket-toolpath" class="md-nav__link">
+    1. Cajeado (Pocket Toolpath)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-cortes-internos-profile-toolpath" class="md-nav__link">
+    2. Cortes internos (Profile Toolpath)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-corte-externo-profile-toolpath" class="md-nav__link">
+    3. Corte externo (Profile Toolpath)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -720,6 +747,33 @@
     PREPARACION DE TRAYECTORIA
   </a>
   
+    <nav class="md-nav" aria-label="PREPARACION DE TRAYECTORIA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-cajeado-pocket-toolpath" class="md-nav__link">
+    1. Cajeado (Pocket Toolpath)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-cortes-internos-profile-toolpath" class="md-nav__link">
+    2. Cortes internos (Profile Toolpath)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-corte-externo-profile-toolpath" class="md-nav__link">
+    3. Corte externo (Profile Toolpath)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -821,30 +875,22 @@
 <img alt="" src="../../images/MT08/01.%20ARCHIVO%20FUSION.jpg" />
 En mi caso, la maquina CNC que usé es la SHOPBOT del FabLab ESAN. Esta cortadora usa el software VCarve Pro. Por lo que exporté el archivo de origen Fusion 360 en DXF. 
 <img alt="" src="../../images/MT08/02.%20EXPORT%20DXF.jpg" /></p>
-<h3 id="vcarve-pro">VCARVE PRO<a class="headerlink" href="#vcarve-pro" title="Permanent link">&para;</a></h3>
+<h3 id="vcarve-pro"><strong>VCARVE PRO</strong><a class="headerlink" href="#vcarve-pro" title="Permanent link">&para;</a></h3>
 <p>Importamos el archivo dxf, y ajustamos la posición en la plancha de MDF (2440 × 1520 mm, espesor 12 mm). Origen de coordenadas: esquina inferior izquierda. Unidades: mm.
 <img alt="" src="../../images/MT08/03.%20VCARVE.jpg" /></p>
 <h4 id="herramienta-de-corte">HERRAMIENTA DE CORTE:<a class="headerlink" href="#herramienta-de-corte" title="Permanent link">&para;</a></h4>
 <p>Afín de usar una sola fresa para todos los cortes escogimos la fresa &#8539;’’ recta puesto que esta puede entrar en los cortes internos más pequeños.
 <img alt="" src="../../images/MT08/04.%20FRESA.jpg" /></p>
 <h4 id="preparacion-de-trayectoria">PREPARACION DE TRAYECTORIA<a class="headerlink" href="#preparacion-de-trayectoria" title="Permanent link">&para;</a></h4>
-<ol>
-<li>
-<p>Cajeado (Pocket Toolpath)
-Seleccionamos los trazos del cajeado y escogimos una profundidad de 6mm. 
+<h5 id="1-cajeado-pocket-toolpath">1. Cajeado (Pocket Toolpath)<a class="headerlink" href="#1-cajeado-pocket-toolpath" title="Permanent link">&para;</a></h5>
+<p>Seleccionamos los trazos del cajeado y escogimos una profundidad de 6mm. 
 <img alt="" src="../../images/MT08/05.%20CAJEADO.jpg" /></p>
-</li>
-<li>
-<p>Cortes internos (Profile Toolpath)
-Seleccionamos los trazos internos. Escogimos tipo de corte Inside y profundidad de corte de 13.3 mm afín de perforar completamente la plancha.
+<h5 id="2-cortes-internos-profile-toolpath">2. Cortes internos (Profile Toolpath)<a class="headerlink" href="#2-cortes-internos-profile-toolpath" title="Permanent link">&para;</a></h5>
+<p>Seleccionamos los trazos internos. Escogimos tipo de corte Inside y profundidad de corte de 13.3 mm afín de perforar completamente la plancha.
 <img alt="" src="../../images/MT08/06.%20CORTE%20INTERNO.jpg" /></p>
-</li>
-<li>
-<p>Corte externo (Profile Toolpath)
-Seleccionamos el contorno externo de la pieza, tipo de corte: Outside, profundidad: 13.3 mm y añadimos un tab de 6 × 4 mm para evitar que la pieza se desprenda durante el corte.
+<h5 id="3-corte-externo-profile-toolpath">3. Corte externo (Profile Toolpath)<a class="headerlink" href="#3-corte-externo-profile-toolpath" title="Permanent link">&para;</a></h5>
+<p>Seleccionamos el contorno externo de la pieza, tipo de corte: Outside, profundidad: 13.3 mm y añadimos un tab de 6 × 4 mm para evitar que la pieza se desprenda durante el corte.
 <img alt="" src="../../images/MT08/07.%20CORTE%20EXTERNO.jpg" /></p>
-</li>
-</ol>
 <h4 id="resumen-de-la-trayectoria-de-herramienta-toolpath-summary">Resumen de la trayectoria de herramienta (Toolpath summary)<a class="headerlink" href="#resumen-de-la-trayectoria-de-herramienta-toolpath-summary" title="Permanent link">&para;</a></h4>
 <p>La totalidad del corte tiene una duración de 14.33 minutos
 Guardamos los toolpaths en archivos en formato ShopBot (.sbp).
@@ -852,7 +898,7 @@ Guardamos los toolpaths en archivos en formato ShopBot (.sbp).
 <h4 id="exportacion-a-shopbot">Exportación a Shopbot<a class="headerlink" href="#exportacion-a-shopbot" title="Permanent link">&para;</a></h4>
 <p>Guardamos los toolpaths en archivos en formato ShopBot (.sbp).
 <img alt="" src="../../images/MT08/09.%20ARCHIVO%20SBP.jpg" /></p>
-<h3 id="corte-cnc">CORTE CNC<a class="headerlink" href="#corte-cnc" title="Permanent link">&para;</a></h3>
+<h3 id="corte-cnc"><strong>CORTE CNC</strong><a class="headerlink" href="#corte-cnc" title="Permanent link">&para;</a></h3>
 <h4 id="fijacion-del-material">Fijación del material<a class="headerlink" href="#fijacion-del-material" title="Permanent link">&para;</a></h4>
 <p>Colocamos la plancha de MDF sobre la mesa de la ShopBot y la atornillamos firmemente para evitar movimientos durante el corte.
 <img alt="" src="../../images/MT08/10.%20INSTALAR%20MDF.jpg" /></p>
@@ -871,7 +917,7 @@ Hicimos un simulacro sin bajar la fresa para verificar que los movimientos fuera
 <img alt="" src="../../images/MT08/14.%20INICIO%20CORTE.jpg" /></p>
 <p><img alt="" src="../../images/MT08/14a.%20CORTE.jpg" /></p>
 <p>Una vez terminado el corte, se apagó el spindle y se esperó a que se detuviera completamente. Se eliminó el tab manualmente, y se retiró la pieza de la mesa. Finalmente se limpió la superficie de trabajo con aspiradora y se apagó la CNC.</p>
-<h3 id="resultado">RESULTADO<a class="headerlink" href="#resultado" title="Permanent link">&para;</a></h3>
+<h3 id="resultado"><strong>RESULTADO</strong><a class="headerlink" href="#resultado" title="Permanent link">&para;</a></h3>
 <p>Pieza luego del corte:
 <img alt="" src="../../images/MT08/15.%20RESULTADO.jpg" />
 Resultado final luego de lijar las rebabas:
@@ -884,7 +930,7 @@ Resultado final luego de lijar las rebabas:
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 19, 2026 18:32:36 UTC">April 19, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 19, 2026 18:40:14 UTC">April 19, 2026</span>
     
   </small>
 </div>
