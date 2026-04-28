@@ -5,7 +5,7 @@ hide:
 
 # PRE ENTREGA
 
-### ¿Por qué? El problema y el para qué del terrario amazónico:
+### **¿Por qué? El problema y el para qué del terrario amazónico:**
 
 1. Problemática: La Amazonía sufre pérdida acelerada de biodiversidad por deforestación, cambio climático y presión extractiva. Los niños están cada vez más desconectados de su entorno natural y falta una herramienta pedagógica lúdica que acerque esta riqueza a nuevas generaciones.
 
@@ -28,7 +28,7 @@ La iconografía cultural (patrones shipibo, mitos amazónicos) despierta curiosi
 La experiencia práctica de moldear y prototipar genera más interés que la enseñanza teórica.
 
 
-### ¿Qué? – La propuesta y el para quién:
+### **¿Qué? – La propuesta y el para quién:**
 
 **Nombre del proyecto:** Terrario Amazónico Pedagógico: Biodiversidad y Cultura en Fabricación Digital.
 
@@ -43,7 +43,7 @@ La experiencia práctica de moldear y prototipar genera más interés que la ens
 
 **Estado actual:** Se han definido especies y elementos culturales (guacamayo, delfín rosado, jaguar, patrones shipibo). Se trabaja en la integración de tecnologías digitales para piezas replicables. Validaciones preliminares con niños confirman atractivo de especies coloridas y narrativas culturales.
 
-### ¿CÓMO? – La resolución técnica
+### ****¿CÓMO? – La resolución técnica**
 
 #### Prototipo: 
 Terrario educativo interactivo con estructura geodésica en madera MDF y acrílico. Integra sistemas de humedad y luz controlada para recrear el microclima amazónico. Incluye moldes de fauna y flora hechos con arcillas naturales y biomateriales, manipulables por los niños.
@@ -67,7 +67,7 @@ Terrario educativo interactivo con estructura geodésica en madera MDF y acríli
 - Diseño modular para transporte y réplica.
 - Integración de sensores para conectar tecnología con observación ambiental.
 
-### Avance y próximos pasos:
+### **Avance y próximos pasos:**
 Estado actual: El proyecto está en etapa intermedia. Ya se definieron objetivos pedagógicos, especies amazónicas y elementos culturales. Se han realizado renders digitales y pruebas con impresión 3D y corte láser. Actualmente se optimizan moldes y se prepara la presentación final.
 
 #### Aprendizajes: 
