@@ -323,9 +323,65 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        MT07
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" title="MT07" class="md-nav__link md-nav__link--active">
       MT07
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#interfaz-grafica-de-usuario-gui" class="md-nav__link">
+    INTERFAZ GRÁFICA DE USUARIO (GUI)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alternativas-para-crear-aplicaciones" class="md-nav__link">
+    ALTERNATIVAS PARA CREAR APLICACIONES
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trabajo-practico" class="md-nav__link">
+    TRABAJO PRACTICO
+  </a>
+  
+    <nav class="md-nav" aria-label="TRABAJO PRACTICO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1" class="md-nav__link">
+    EJERCICIO 1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -576,6 +632,48 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#interfaz-grafica-de-usuario-gui" class="md-nav__link">
+    INTERFAZ GRÁFICA DE USUARIO (GUI)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alternativas-para-crear-aplicaciones" class="md-nav__link">
+    ALTERNATIVAS PARA CREAR APLICACIONES
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trabajo-practico" class="md-nav__link">
+    TRABAJO PRACTICO
+  </a>
+  
+    <nav class="md-nav" aria-label="TRABAJO PRACTICO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1" class="md-nav__link">
+    EJERCICIO 1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -594,7 +692,37 @@
                   
                 
                 
-                <h1 id="mt07-interfases-y-aplicaciones">MT07 Interfases y aplicaciones<a class="headerlink" href="#mt07-interfases-y-aplicaciones" title="Permanent link">&para;</a></h1>
+                <h1 id="mt07-interfases-y-aplicaciones">MT07 Interfases y Aplicaciones<a class="headerlink" href="#mt07-interfases-y-aplicaciones" title="Permanent link">&para;</a></h1>
+<p>Este módulo es la Introducción a los principios de programación y electrónica aplicada a Interfases y Aplicaciones. Interfaz es un puente entre el sistema físico y quien lo usa, que permite ver estados y ejecutar acciones.</p>
+<p><img alt="" src="../../images/MT07/01.%20CAPAS%20DE%20INTERFAZ.jpg" /></p>
+<h4 id="interfaz-grafica-de-usuario-gui">INTERFAZ GRÁFICA DE USUARIO (GUI)<a class="headerlink" href="#interfaz-grafica-de-usuario-gui" title="Permanent link">&para;</a></h4>
+<p>Una interfaz gráfica de usuario es el medio visual que permite al usuario interactuar con un sistema o aplicación mediante elementos gráficos en lugar de comandos de texto.
+El <strong>frontend</strong> es la parte visible de una aplicación o sistema, lo que el usuario ve y con lo que interactúa directamente.
+El <strong>backend</strong> es la parte interna del sistema, donde se procesan los datos y se ejecuta la lógica. No es visible para el usuario.</p>
+<p><img alt="" src="../../images/MT07/02.%20GUI.jpg" /></p>
+<p>Ejemplo de una GUI: </p>
+<ol>
+<li>Ordenador → Código serial
+•   Escribes un programa en Arduino IDE o Python que envíe comandos por Bluetooth (ej. &ldquo;LED_ON&rdquo;, &ldquo;TEMP_READ&rdquo;).</li>
+<li>ESP32 → Recepción Bluetooth
+•   El ESP32 usa la librería BluetoothSerial.
+•   En el &ldquo;loop&rdquo;, escucha los comandos recibidos.
+•   Si recibe &ldquo;LED_ON&rdquo; → enciende el LED.
+•   Si recibe &ldquo;TEMP_READ&rdquo; → lee el sensor de temperatura.</li>
+<li>ESP32 → Envío a la nube (Blynk)
+•   Conecta el ESP32 a WiFi.
+•   Usa la librería BlynkSimpleEsp32.h.
+•   Envía los datos del sensor a un Virtual Pin en Blynk.</li>
+<li>Usuario → GUI en Blynk
+•   En la app Blynk, ves la lectura en tiempo real (ej. temperatura).
+•   Desde la interfaz, puedes mandar órdenes al ESP32 (ej. encender/apagar LED).</li>
+</ol>
+<h4 id="alternativas-para-crear-aplicaciones">ALTERNATIVAS PARA CREAR APLICACIONES<a class="headerlink" href="#alternativas-para-crear-aplicaciones" title="Permanent link">&para;</a></h4>
+<p>Revisamos diversas herramientas digitales para crear aplicativos. Desde las más básicas como <strong>MIT APP INVENTOR</strong> que no requiere código, pasando por <strong>Streamlit</strong> que requiere saber de Python, <strong>Lovable</strong> que utiliza IA para generar APP’s a partir de promts, <strong>Blynk</strong> que permite ver dashboards en Iot y <strong>Arduino full stack</strong> que genera un ecosistema completo que conecta la placa con la nube y el aplicativo.</p>
+<h4 id="trabajo-practico">TRABAJO PRACTICO<a class="headerlink" href="#trabajo-practico" title="Permanent link">&para;</a></h4>
+<h5 id="ejercicio-1"><em>EJERCICIO 1</em><a class="headerlink" href="#ejercicio-1" title="Permanent link">&para;</a></h5>
+<p><img alt="" src="../../images/MT07/03.%20EJE%201%20.jpg" /></p>
+<iframe width="560" height="315" src="https://youtube.com/shorts/vo99hjSKEhE?si=GRHpOmnaBLfWbLoS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 
                   
                     
@@ -603,7 +731,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 7, 2026 14:14:51 UTC">April 7, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 24, 2026 18:55:33 UTC">May 24, 2026</span>
     
   </small>
 </div>
