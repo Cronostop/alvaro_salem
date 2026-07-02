@@ -83,12 +83,12 @@
 ---
 
 ## 7. Referencias bibliográficas
-*(Formato APA o IEEE según lo que se requiera.)*
+
 
 ---
 
 ## 8. Anexos
 - Planos CAD del tablero.  
 - Fotografías del prototipo.  
-- Capturas de la interfaz Blynk.  
+- Capturas de ARDUINO  
 
