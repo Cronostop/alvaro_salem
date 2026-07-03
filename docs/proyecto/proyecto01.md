@@ -11,7 +11,7 @@
 ## 2. Marco conceptual y antecedentes
 - **Referencias relevantes:** Educación ambiental, gamificación y aprendizaje experiencial.  
 - **Proyectos similares:** Tableros didácticos de biodiversidad, juegos de mesa educativos, experiencias de Fab Labs.  
-- **Tecnologías vinculadas:** CNC, corte láser, impresión 3D, microcontroladores (ESP32/Arduino), sensores de humedad y luz, plataformas IoT como Blynk.  
+- **Tecnologías vinculadas:** CNC, corte láser, impresión 3D, microcontroladores (ESP32/Arduino).  
 - **Estado del arte:** Educación STEM combinada con conciencia ecológica mediante dispositivos interactivos.  
 - **Antecedentes metodológicos:** Diseño paramétrico (Grasshopper), iconografía amazónica (Shipibo-Konibo), biomateriales aplicados.  
 
@@ -28,7 +28,7 @@
 ## 3. Metodología y proceso
 - **Investigación:** Revisión bibliográfica sobre educación ambiental y tecnologías de fabricación digital.  
 - **Exploración:** Bocetos iniciales de tableros tipo chacana.  
-- **Diseño:** Modelado en AutoCAD/Revit, iteraciones con Grasshopper.  
+- **Diseño:** Modelado en AutoCAD, CorelDraw 
 - **Iteraciones:** Ajustes en tamaño, materiales y mecánicas de juego.  
 - **Prototipado:** Producción de fichas y tablero mediante corte láser y 3D printing.  
 - **Validación:** Pruebas con estudiantes y retroalimentación de docentes.  
@@ -41,10 +41,10 @@
 - **Fabricación:**  
   - Procesos aditivos: impresión 3D de fichas.  
   - Procesos sustractivos: corte láser de tablero en MDF/acrílico.  
-  - Otros: ensamblaje manual, biomateriales experimentales.  
-- **Electrónica y programación:** ESP32 con sensores de humedad/luz, comunicación Bluetooth–Blynk.  
+  - Otros: ensamblaje manual.  
+- **Electrónica y programación:** Arduino.  
 - **Funcionamiento:** Interacción física y digital, mostrando información ambiental al colocar fichas.  
-- **Tecnologías utilizadas:** AutoCAD, Revit, Grasshopper, CNC, corte láser, impresión 3D, Arduino IDE, Blynk.  
+- **Tecnologías utilizadas:** AutoCAD, CNC, corte láser, impresión 3D, Arduino IDE.  
 
 ### Tabla de materiales y componentes
 
