@@ -5,6 +5,8 @@
 
 ## 1. Introducción
 
+## 1. Introducción
+
 El corazón del proyecto es **la narrativa**.  
 Cada jugador inicia su recorrido en el **río** y asciende por los diferentes niveles ecológicos: **raíces, tronco, ramas y canopy**. Este camino simboliza la vida en la selva, desde lo más profundo hasta lo más alto.
 
@@ -16,6 +18,7 @@ La diversión se convierte en **conciencia ecológica**, y cada partida es una o
 
 ---
 
+## 2. Concepto Creativo
 ## 2. Concepto Creativo
 
 **Aventura Amazónica** es un juego de mesa donde el tablero tridimensional representa una **chacana o cruz andina**.  
