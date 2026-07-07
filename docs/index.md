@@ -1,5 +1,5 @@
-## Welcome
+## Bienvenidos a mi espacio de Fab Lab
 
-![](../images/perezoso.jpg)
+Este espacio refleja mi recorrido por la fabricación digital como herramienta para innovar y transformar. Aquí convergen diseño, tecnología y sostenibilidad, integrando el saber con el hacer para impulsar proyectos interdisciplinarios.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Mi objetivo es explorar cómo la fabricación digital amplía las posibilidades del diseño, generando soluciones creativas que dialogan con la innovación y la investigación aplicada.
