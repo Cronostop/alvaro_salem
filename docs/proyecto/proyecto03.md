@@ -1,7 +1,7 @@
 # Anexos
 
 # 🌿 Aventura Amazónica
-![](../images/ENTREGA%20FINAL/anexos/01.%20tablero%20fondo%20amazonico.png)
+![](../images/ENTREGA%20FINAL/anexos/01a.%20tablero%20fondo%20amazonico.jpg)
 
 ## 🌀 1. Introducción
 
@@ -132,7 +132,7 @@ Cada reto ejercita una capacidad distinta —memoria secuencial, tacto, expresi�
 
 ## 🌎 5. Guardianes de la Selva
 
-![](../images/ENTREGA%20FINAL/anexos/05.%20GUARDIAN%20DE%20LA%20AMAZONIA.png)
+![](../images/ENTREGA%20FINAL/anexos/05a.%20GUARDIAN%20DE%20LA%20AMAZONIA.jpg)
 
 **Aventura Amazónica** no solo entretiene: **educa, conecta y transforma**.  
 Cada partida es una metáfora del equilibrio natural y una invitación a **proteger la selva amazónica** desde la colaboración y el conocimiento.
