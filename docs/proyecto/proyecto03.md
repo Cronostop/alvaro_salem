@@ -16,10 +16,9 @@ Lo más importante es que en cada nivel se activan **retos grupales**, reforzand
 Así, el juego transmite un mensaje claro: la Amazonía es un sistema vivo e interconectado, y protegerla requiere colaboración.  
 La diversión se convierte en **conciencia ecológica**, y cada partida es una oportunidad para **aprender jugando**.
 
----
 
 ## 2. Concepto Creativo
-## 2. Concepto Creativo
+## 2. 🔶 Concepto Creativo
 
 **Aventura Amazónica** es un juego de mesa donde el tablero tridimensional representa una **chacana o cruz andina**.  
 El tablero no es solo un espacio físico: es un **camino iniciático** donde cada jugador, como **Guardián Amazónico**, recorre los peldaños de la chacana para **aprender, proteger y equilibrar** su relación con la naturaleza.
