@@ -3,7 +3,7 @@
 # 🌿 Aventura Amazónica
 ![](../images/ENTREGA%20FINAL/anexos/01.%20tablero%20fondo%20amazonico.png)
 
-## 🌀 1. Introducción
+## 1. Introducción
 
 El corazón del proyecto es **la narrativa**.  
 Cada jugador inicia su recorrido en el **río** y asciende por los diferentes niveles ecológicos: **raíces, tronco, ramas y canopy**. Este camino simboliza la vida en la selva, desde lo más profundo hasta lo más alto.
@@ -16,7 +16,7 @@ La diversión se convierte en **conciencia ecológica**, y cada partida es una o
 
 ---
 
-## 🔶 2. Concepto Creativo
+## 2. Concepto Creativo
 
 **Aventura Amazónica** es un juego de mesa donde el tablero tridimensional representa una **chacana o cruz andina**.  
 El tablero no es solo un espacio físico: es un **camino iniciático** donde cada jugador, como **Guardián Amazónico**, recorre los peldaños de la chacana para **aprender, proteger y equilibrar** su relación con la naturaleza.
