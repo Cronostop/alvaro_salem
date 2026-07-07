@@ -1,4 +1,4 @@
-# Anexos
+# Anexo I
 
 # 🌿 Aventura Amazónica
 ![](../images/ENTREGA%20FINAL/anexos/01a.%20tablero%20fondo%20amazonico.jpg)
